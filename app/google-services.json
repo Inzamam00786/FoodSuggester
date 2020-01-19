@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "462030322241",
+    "firebase_url": "https://foodsuggester-fbc05.firebaseio.com",
+    "project_id": "foodsuggester-fbc05",
+    "storage_bucket": "foodsuggester-fbc05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462030322241:android:506d461cbe1cb2e2",
+        "android_client_info": {
+          "package_name": "com.sadiafoodsuggester.inzamam.foodsuggester"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462030322241-0cu5pr503jlmoeeddd30sin8f7590fuh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sadiafoodsuggester.inzamam.foodsuggester",
+            "certificate_hash": "ea1acb8ee663660e889f0d44a87f910dea70a55f"
+          }
+        },
+        {
+          "client_id": "462030322241-3bvs9h8s3btelq3eh4hm87h54ksl28m6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvlPERL9SL9ZeqDd7pUBdfPXmRp0jHazs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462030322241-3bvs9h8s3btelq3eh4hm87h54ksl28m6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

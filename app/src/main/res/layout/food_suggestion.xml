@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sadiafoodsuggester.inzamam.foodsuggester.FoodSuggestion">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/actionbartitleColor"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/foodsuggestiontoolbar"
+        />
+    <RelativeLayout
+        android:id="@+id/firstrelativelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_below="@+id/foodsuggestiontoolbar">
+
+        <RelativeLayout
+            android:id="@+id/secondrelativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/bmitextvlabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="-121dp"
+                android:layout_toStartOf="@+id/bmitextView"
+                android:text="Your BMI is "
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/bmitextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="121dp"
+                android:text="0.0"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/bmitstatuslabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  BMI Status is "
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_below="@+id/bmitextvlabel"
+                />
+
+            <TextView
+                android:id="@+id/bmistatustv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/bmitextView"
+                android:layout_below="@+id/bmitextvlabel"
+                android:text="  Average"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/consumedlabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/bmitstatuslabel"
+                android:text="  Consumed = "
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/consumedtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bmitstatuslabel"
+                android:layout_toEndOf="@+id/bmitstatuslabel"
+                android:text="  0.0"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/thirdrelativelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/secondrelativelayout"
+            android:background="#fff">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/myrecyclerview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
